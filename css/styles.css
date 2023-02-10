@@ -1,3 +1,20 @@
-body{
-    background-color: purple;
+.top-container{
+    height:200px;
+    width:200px;
+    border:solid 10px;
+    padding:20px;
+}
+.middle-container{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border:solid 20px;
+    margin-left:260px;
+}
+.bottom-container{
+    height:200px;
+    width:200px;
+    background-color: blue;
+    border:solid 10px;
+    margin-left:500px;
 }
