@@ -1,20 +1,35 @@
+/*
+    here I play around with the relative positions.
+    Note that the positions are changed relative to default positions.
+    Because of that you notice I moved the containers relative to their static positions.
+    So changing the position to relative without stating any changes to the positions will
+    the element in the default position.
+
+    Note that upon moving the element it leaves a margin which would affect the other elements
+    around it which is where the display: inline-block; comes in rather than setting bottom:XXXpx;
+*/
+
 .top-container{
     height:200px;
     width:200px;
-    border:solid 10px;
-    padding:20px;
+    background-color: red;
+    position:relative;
+    left:400px;
+    display:inline-block;
 }
 .middle-container{
     height:200px;
     width:200px;
-    background-color: red;
-    border:solid 20px;
-    margin-left:260px;
+    background-color: blue;
+    position:relative;
+    right:200px;
+    display:inline-block;
 }
 .bottom-container{
     height:200px;
     width:200px;
-    background-color: blue;
-    border:solid 10px;
-    margin-left:500px;
+    background-color: yellow;
+    position:relative;
+    right:200px;
+    display:inline-block;
 }
