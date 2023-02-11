@@ -8,28 +8,35 @@
     Note that upon moving the element it leaves a margin which would affect the other elements
     around it which is where the display: inline-block; comes in rather than setting bottom:XXXpx;
 */
-
+body{
+    text-align:center;
+    margin:0;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
 .top-container{
-    height:200px;
-    width:200px;
-    background-color: red;
+    background-color:#E4F9F5;
+
+    padding-top:100px;
     position:relative;
-    left:400px;
-    display:inline-block;
 }
-.middle-container{
-    height:200px;
-    width:200px;
-    background-color: blue;
-    position:relative;
-    right:200px;
-    display:inline-block;
+.top-cloud{
+    position:absolute;
+    top:50px;
+    right:350px;
 }
-.bottom-container{
-    height:200px;
-    width:200px;
-    background-color: yellow;
-    position:relative;
-    right:200px;
-    display:inline-block;
+.bottom-cloud{
+    position:absolute;
+    bottom:300px;
+    left:350px;
+
 }
+
