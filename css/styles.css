@@ -15,20 +15,50 @@ body{
 }
 h1{
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0;
+    color: #66BFBF;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 .icon{
-    height: 150px;
-    width: 150px;
+    width:25%;
+}
+.computer-icon{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+.internet-icon{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+.computer-paragraph{
+    clear:left;
+}
+.internet-paragraph{
+    clear:right;
 }
 .top-container{
     background-color:#E4F9F5;
-
     padding-top:100px;
     position:relative;
 }
